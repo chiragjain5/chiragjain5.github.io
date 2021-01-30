@@ -49,7 +49,7 @@ class App extends Component {
             <Nav/>
             <Switch>
               {/* <Redirect exact from = '/' to = '/about' /> */}
-              <Route exact path="/" exact component={About}/>
+              <Route exact path="/about" exact component={About}/>
               <Route exact path="/portfolio/projects" component={Projects}/>
               <Route exact path="/portfolio/resume" component={Resume}/>
              
